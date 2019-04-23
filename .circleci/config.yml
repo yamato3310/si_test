@@ -6,4 +6,3 @@ jobs:
     steps:
       - checkout
       - run: bash .circleci/check_file.sh
-      - run: ls err 2>&1
